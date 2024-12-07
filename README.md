@@ -67,8 +67,8 @@ Definir as promoções baseadas na quantidade de itens e valor adicional da comp
 ## Checklist do Aluno
 
 ### Etapa 1: Criação do Catálogo de Produtos
-- [ ] Criar a classe `Produto` com os atributos: `nome`, `valor`, `descricao`, `marca`
-- [ ] Criar subclasses para os itens (camisetas, calças, sapatos, relógios, bonés)
+- [x] Criar a classe `Produto` com os atributos: `nome`, `valor`, `descricao`, `marca`
+- [x] Criar subclasses para os itens (camisetas, calças, sapatos, relógios, bonés)
 
 ### Etapa 2: Promoções Escalonadas
 - [ ] Implementar promoções de acordo com a quantidade de itens e valor adicional de compra

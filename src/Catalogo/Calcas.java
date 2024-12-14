@@ -1,12 +1,20 @@
 package Catalogo;
 
-public class Calcas extends Produto { 
+public class Calcas extends Produto {
 
     double tamanho;
     String cor;
     String material;
     String estilo;
-    String marca;
+
+    public Calcas(String cor, String estilo, String material, double tamanho, String descricao, String marca,
+            String nome, double valor) {
+        super(descricao, marca, nome, valor);
+        this.cor = cor;
+        this.estilo = estilo;
+        this.material = material;
+        this.tamanho = tamanho;
+    }
 
     public double getTamanho() {
         return tamanho;
@@ -47,7 +55,5 @@ public class Calcas extends Produto {
     public void setMarca(String marca) {
         this.marca = marca;
     }
-    
-    
 
 }

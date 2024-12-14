@@ -1,11 +1,18 @@
 package Catalogo;
 
-public class Relogios extends Produto { 
+public class Relogios extends Produto {
 
     String cor;
     String materialDaPulseira;
     String resistenteAAgua;
-    String marca;
+
+    public Relogios(String cor, String materialDaPulseira, String resistenteAAgua, String descricao, String marca,
+            String nome, double valor) {
+        super(descricao, marca, nome, valor);
+        this.cor = cor;
+        this.materialDaPulseira = materialDaPulseira;
+        this.resistenteAAgua = resistenteAAgua;
+    }
 
     public String getCor() {
         return cor;
@@ -38,7 +45,5 @@ public class Relogios extends Produto {
     public void setMarca(String marca) {
         this.marca = marca;
     }
-    
-
 
 }

@@ -1,11 +1,18 @@
 package Catalogo;
 
-public class Camisetas  extends Produto{
+public class Camisetas extends Produto {
 
     double tamanho;
     String cor;
     String material;
-    String marca;
+
+    public Camisetas(String cor, String material, double tamanho, String descricao, String marca, String nome,
+            double valor) {
+        super(descricao, marca, nome, valor);
+        this.cor = cor;
+        this.material = material;
+        this.tamanho = tamanho;
+    }
 
     public double getTamanho() {
         return tamanho;
@@ -38,7 +45,5 @@ public class Camisetas  extends Produto{
     public void setMarca(String marca) {
         this.marca = marca;
     }
-      
-
 
 }

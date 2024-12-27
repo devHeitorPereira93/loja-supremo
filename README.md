@@ -71,7 +71,7 @@ Definir as promoções baseadas na quantidade de itens e valor adicional da comp
 - [x] Criar subclasses para os itens (camisetas, calças, sapatos, relógios, bonés)
 
 ### Etapa 2: Promoções Escalonadas
-- [x] Implementar promoções de acordo com a quantidade de itens e valor adicional de compra
+- [X] Implementar promoções de acordo com a quantidade de itens e valor adicional de compra
 - [x] Exibir o valor total com desconto (se aplicável)
 
 ### Etapa 3: Menu de Navegação e Carrinho de Compras

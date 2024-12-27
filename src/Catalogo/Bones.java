@@ -6,13 +6,18 @@ public class Bones extends Produto {
     double tamanho;
     String material;
 
-    public Bones(String cor, String material, double tamanho, String descricao, String marca, String nome,
-            double valor) {
+    public Bones(String cor, String material, double tamanho, String descricao, String marca, String nome, double valor) {
         super(descricao, marca, nome, valor);
         this.cor = cor;
         this.material = material;
         this.tamanho = tamanho;
     }
+
+    
+    
+
+    
+    
 
     public String getCor() {
         return cor;
@@ -38,12 +43,9 @@ public class Bones extends Produto {
         this.material = material;
     }
 
-    public String getMarca() {
-        return marca;
+    
     }
 
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
+   
 
-}
+

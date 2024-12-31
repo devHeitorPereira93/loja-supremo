@@ -1,6 +1,6 @@
 package Catalogo;
 
-public class Relogios extends Produto {
+public class Relogios extends Produtos {
 
     String cor;
     String materialDaPulseira;
@@ -17,6 +17,8 @@ public class Relogios extends Produto {
     public String getCor() {
         return cor;
     }
+
+    
 
     public void setCor(String cor) {
         this.cor = cor;
@@ -44,6 +46,17 @@ public class Relogios extends Produto {
 
     public void setMarca(String marca) {
         this.marca = marca;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Relogios{");
+        sb.append("cor=").append(cor);
+        sb.append(", materialDaPulseira=").append(materialDaPulseira);
+        sb.append(", resistenteAAgua=").append(resistenteAAgua);
+        sb.append('}');
+        return sb.toString();
     }
 
 }

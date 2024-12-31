@@ -1,6 +1,6 @@
 package Catalogo;
 
-public class Bones extends Produto {
+public class Bones extends Produtos {
 
     String cor;
     double tamanho;
@@ -18,6 +18,18 @@ public class Bones extends Produto {
 
     
     
+
+    @Override
+    public String toString() {
+        return "Bones [nome=" + nome + ", cor=" + cor + ", valor=" + valor + ", tamanho=" + tamanho + ", descricao="
+                + descricao + ", material=" + material + ", marca=" + marca + "]";
+    }
+
+
+
+
+
+
 
     public String getCor() {
         return cor;

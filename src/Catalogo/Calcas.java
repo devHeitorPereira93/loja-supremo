@@ -1,6 +1,6 @@
 package Catalogo;
 
-public class Calcas extends Produto {
+public class Calcas extends Produtos {
 
     double tamanho;
     String cor;

@@ -1,6 +1,6 @@
 package Catalogo;
 
-public class Camisetas extends Produto {
+public class Camisetas extends Produtos {
 
     double tamanho;
     String cor;
@@ -13,6 +13,8 @@ public class Camisetas extends Produto {
         this.material = material;
         this.tamanho = tamanho;
     }
+
+    
 
     public double getTamanho() {
         return tamanho;
@@ -44,6 +46,17 @@ public class Camisetas extends Produto {
 
     public void setMarca(String marca) {
         this.marca = marca;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Camisetas{");
+        sb.append("tamanho=").append(tamanho);
+        sb.append(", cor=").append(cor);
+        sb.append(", material=").append(material);
+        sb.append('}');
+        return sb.toString();
     }
 
 }

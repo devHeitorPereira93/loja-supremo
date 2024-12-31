@@ -1,33 +1,37 @@
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+package Promocao;
+
+
+import Catalogo.Bones;
+import Catalogo.Calcas;
+import Catalogo.Camisetas;
+import Catalogo.Produtos;
+import Catalogo.Relogios;
+import Catalogo.Sapatos;
+
+import java.util.ArrayList;
+
 
 public class Promocoes {
 
-    public static void main(String[] args) {
+    ArrayList<Produtos> produtos = new ArrayList<>();
 
-        int qtdItens = 5;
-        double valorAdicional = 200.0;
-        List<Double> precos = Arrays.asList(50.0, 100.0, 150.0, 200.0, 250.0);
+   Produtos p1 = new Calcas("Jeans", "Casual Moderno",  "Jeans",  46, "Super Skinny",  "Tempo hábil ",  "Calças Super Skinny PremiumII Street", 169.20);
+     Produtos p2 = new Bones("Rosa", "Sarja", 'U', "O clássico dad hat é fabricado com a mais alta tecnologia", "New Era", "Boné 9TWENTY Branded All Picnic", 309.90);
+   Produtos p3 = new Relogios("Azul","Pulseira de Silicone", "Sim", " Caixa Aço Dourado Quartzo", "Bulova", "Relógio Bulova Marine", 4790.00);
+  Produtos p4 = new Sapatos("Marrom", "Couro", 44, "Social", "Sapato de couro social", "Pegada", "Sapato social de couro Pegada", 489.78);
+  Produtos p5 = new Camisetas("Branca", "Algodão", 5, "Camisa casual de algodão","POLLO", "Camiseta Casual POLLO", 189.90);
 
-        Collections.sort(precos);
-
-        double desconto = 0.0;
-        if (qtdItens == 4 && valorAdicional >= 100.0) {
-            desconto = precos.get(0) * 0.25;
-        } else if (qtdItens == 5 && valorAdicional >= 200.0) {
-            desconto = precos.get(0) * 0.50;
-        } else if (qtdItens >= 6 && valorAdicional >= 300.0) {
-            desconto = precos.get(0);
-        }
-
-        double total = 0.0;
-        for (double preco : precos) {
-            total += preco;
-        }
-        total -= desconto;
-
-        System.out.println("Desconto aplicado: " + desconto);
-        System.out.println("Total atualizado: " + total);
     }
+
+         
+    
+    
+        
+
+   
+    
+
+
+
+
 }

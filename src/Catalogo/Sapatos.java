@@ -1,20 +1,26 @@
 
 package Catalogo;
 
-public class Sapatos extends Produto {
+public class Sapatos extends Produtos {
 
     double tamanho;
     String cor;
     String material;
-    double tipo;
+    String tipo;
 
-    public Sapatos(String cor, String material, double tamanho, double tipo, String descricao, String marca,
+    public Sapatos(String cor, String material, double tamanho, String tipo, String descricao, String marca,
             String nome, double valor) {
         super(descricao, marca, nome, valor);
         this.cor = cor;
         this.material = material;
         this.tamanho = tamanho;
         this.tipo = tipo;
+    }
+
+    @Override
+    public String toString() {
+        return "Sapatos [nome=" + nome + ", tamanho=" + tamanho + ", valor=" + valor + ", descricao=" + descricao
+                + ", cor=" + cor + ", material=" + material + ", marca=" + marca + ", tipo=" + tipo + "]";
     }
 
     public double getTamanho() {

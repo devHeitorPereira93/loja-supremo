@@ -1,13 +1,13 @@
 package Catalogo;
 
-public class Produto {
+public class Produtos {
 
     String nome;
     double valor;
     String descricao;
     String marca;
 
-    public Produto(String descricao, String marca, String nome, double valor) {
+    public Produtos(String descricao, String marca, String nome, double valor) {
         this.descricao = descricao;
         this.marca = marca;
         this.nome = nome;

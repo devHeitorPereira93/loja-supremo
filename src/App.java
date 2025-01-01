@@ -6,6 +6,7 @@ import Catalogo.Produto;
 import Catalogo.Relogio;
 import Catalogo.Sapato;
 import Ferramentas.Calculadora;
+
 import java.util.ArrayList;
 
 public class App {

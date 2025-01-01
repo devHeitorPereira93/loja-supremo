@@ -6,9 +6,9 @@ public class Sapato extends Produto {
     double tamanho;
     String cor;
     String material;
-    String tipo;
+    double tipo;
 
-    public Sapato(String cor, String material, double tamanho, String tipo, String descricao, String marca,
+    public Sapato(String cor, String material, double tamanho, double tipo, String descricao, String marca,
             String nome, double valor) {
         super(descricao, marca, nome, valor);
         this.cor = cor;

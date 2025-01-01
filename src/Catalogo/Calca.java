@@ -1,13 +1,13 @@
 package Catalogo;
 
-public class Calcas extends Produto {
+public class Calca extends Produto {
 
     double tamanho;
     String cor;
     String material;
     String estilo;
 
-    public Calcas(String cor, String estilo, String material, double tamanho, String descricao, String marca,
+    public Calca(String cor, String estilo, String material, double tamanho, String descricao, String marca,
             String nome, double valor) {
         super(descricao, marca, nome, valor);
         this.cor = cor;

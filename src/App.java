@@ -1,6 +1,6 @@
 
 import Catalogo.Bone;
-import Catalogo.Calcas;
+import Catalogo.Calca;
 import Catalogo.Camiseta;
 import Catalogo.Produto;
 import Catalogo.Relogio;
@@ -15,7 +15,7 @@ public class App {
 
     ArrayList<Produto> carrinho = new ArrayList<>() {
       {
-        add(new Calcas("Azul", "Casual Moderno", "Jeans", 46, "Super Skinny", "Tempo hábil ",
+        add(new Calca("Azul", "Casual Moderno", "Jeans", 46, "Super Skinny", "Tempo hábil ",
             "Calças Super Skinny PremiumII Street", 169.20));
 
         add(new Bone("Rosa", "Sarja", 'U', "O clássico dad hat é fabricado com a mais alta tecnologia", "New Era",

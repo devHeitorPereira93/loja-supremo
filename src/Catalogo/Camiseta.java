@@ -1,12 +1,12 @@
 package Catalogo;
 
-public class Camisetas extends Produtos {
+public class Camiseta extends Produto {
 
     double tamanho;
     String cor;
     String material;
 
-    public Camisetas(String cor, String material, double tamanho, String descricao, String marca, String nome,
+    public Camiseta(String cor, String material, double tamanho, String descricao, String marca, String nome,
             double valor) {
         super(descricao, marca, nome, valor);
         this.cor = cor;

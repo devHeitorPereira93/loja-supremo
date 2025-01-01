@@ -1,12 +1,12 @@
 package Catalogo;
 
-public class Relogios extends Produtos {
+public class Relogio extends Produto {
 
     String cor;
     String materialDaPulseira;
     String resistenteAAgua;
 
-    public Relogios(String cor, String materialDaPulseira, String resistenteAAgua, String descricao, String marca,
+    public Relogio(String cor, String materialDaPulseira, String resistenteAAgua, String descricao, String marca,
             String nome, double valor) {
         super(descricao, marca, nome, valor);
         this.cor = cor;

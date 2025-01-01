@@ -1,12 +1,12 @@
 package Catalogo;
 
-public class Bones extends Produtos {
+public class Bone extends Produto {
 
     String cor;
     double tamanho;
     String material;
 
-    public Bones(String cor, String material, double tamanho, String descricao, String marca, String nome, double valor) {
+    public Bone(String cor, String material, double tamanho, String descricao, String marca, String nome, double valor) {
         super(descricao, marca, nome, valor);
         this.cor = cor;
         this.material = material;
